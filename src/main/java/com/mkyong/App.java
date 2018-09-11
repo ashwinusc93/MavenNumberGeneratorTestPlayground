@@ -17,8 +17,8 @@ public class App
     
     public String generateUniqueKey(){
     	
-    	String id = UUID.randomUUID().toString();
-    	return id;
+    	String uuid = UUID.randomUUID().toString();
+    	return uuid;
     	
     }
 }
